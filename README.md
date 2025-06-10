@@ -24,11 +24,12 @@ Windows (vcpkg):
 
 ## Build and Run
 
-1. cd client
-2. mkdir build && cd build
-3. cmake .. 
+1. `cd client`
+2. `mkdir build && cd build`
+3. `cmake .. `
    OR
-3. cmake .. -DCMAKE_TOOLCHAIN_FILE="C:\vcpkg\scripts\buildsystems\vcpkg.cmake" -DCMAKE_PREFIX_PATH="C:\vcpkg\installed\x64-windows" -DVCPKG_TARGET_TRIPLET=x64-windows
-4. cmake --build .
-5. ./RestApiClient
-Make sure the Node.js server is running on localhost:3000 before running the client.
+3. `cmake .. -DCMAKE_TOOLCHAIN_FILE="C:\vcpkg\scripts\buildsystems\vcpkg.cmake" -DCMAKE_PREFIX_PATH="C:\vcpkg\installed\x64-windows" -DVCPKG_TARGET_TRIPLET=x64-windows`
+4. `cmake --build .`
+5. `./RestApiClient`
+
+- Make sure the Node.js server is running on localhost:3000 before running the client.
